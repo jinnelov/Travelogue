@@ -37,8 +37,6 @@ defaults:
         share_buttons: false
         disqus: false
 
-default_locale: "se"
-
 gems:
     - jekyll-feed
     - jekyll-sitemap
