@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+{% assign months = "januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%-d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+
 <div class="post">
     {% if page.reading_time %}
     <p class="post-reading-time">&#126;
@@ -29,7 +36,7 @@ layout: default
         {% if page.date %}
         <div class="meta">
             <h3 class="meta-title">Datum</h3>
-            <span class="meta-content">{{ page.date | date: "%B %-d, %Y" }}</span>
+            <span class="meta-content">{{ day }} {{ month }} {{ year }}</span>
         </div>
         {% endif %}
         {% if page.author %}

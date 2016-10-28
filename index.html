@@ -3,6 +3,7 @@ layout: default
 home: true
 ---
 
+
 <div class="home">
     <ul class="post-list">
         {% if site.pagination %}
@@ -12,11 +13,16 @@ home: true
         {% endif %}
 
         {% for post in source %}
+	   {% assign months = "januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december" | split: "|" %}
+           {% assign m = post.date | date: "%-m" | minus: 1 %}
+           {% assign day = post.date | date: "%-d" %}
+           {% assign month = months[m] %}
+           {% assign year = post.date | date: "%Y" %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-link">
                 <div class="post-list-info">
                     <h2 class="post-list-title">{{ post.title }}</h2>
-                    <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+                    <span class="post-list-meta">{{ day }} {{ month }} {{ year }}</span>
                 </div>
             </a>
 
