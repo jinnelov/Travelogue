@@ -31,7 +31,7 @@ defaults:
       values:
         reading_time: false
         # Meta
-        show_tags: true
+        show_tags: false
         show_categories: true
         # Social
         share_buttons: false

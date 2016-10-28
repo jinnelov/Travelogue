@@ -28,19 +28,19 @@ layout: default
     <footer class="post-meta">
         {% if page.date %}
         <div class="meta">
-            <h3 class="meta-title">Date</h3>
+            <h3 class="meta-title">Datum</h3>
             <span class="meta-content">{{ page.date | date: "%B %-d, %Y" }}</span>
         </div>
         {% endif %}
         {% if page.author %}
         <div class="meta">
-            <h3 class="meta-title">Author</h3>
+            <h3 class="meta-title">Författare</h3>
             <span class="meta-content">{{ page.author }}</span>
         </div>
         {% endif %}
         {% if page.show_categories %}
         <div class="meta">
-            <h3 class="meta-title">Categories</h3>
+            <h3 class="meta-title">Kategorier</h3>
             <span class="meta-content">
                 {% for category in page.categories %}
                     {{ category | capitalize }}&nbsp;
@@ -50,7 +50,7 @@ layout: default
         {% endif %}
         {% if page.show_tags %}
         <div class="meta">
-            <h3 class="meta-title">Tags</h3>
+            <h3 class="meta-title">Taggar</h3>
             <span class="meta-content">
                 {% for tag in page.tags %}
                     {{ tag | capitalize }}&nbsp;
