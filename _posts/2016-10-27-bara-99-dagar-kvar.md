@@ -3,8 +3,8 @@ layout: post
 title: "Bara 99 dagar kvar"
 date: 2016-10-27
 backgrounds:
-    - http://www.ccbi.ac.nz/wp-content/uploads/2015/02/Visit-New-Zealand-Landscape-With-Road-and-Snowy-Mountains-Southern-Alps-New-Zealand-1600x1047.jpg
-thumb: http://www.ccbi.ac.nz/wp-content/uploads/2015/02/Visit-New-Zealand-Landscape-With-Road-and-Snowy-Mountains-Southern-Alps-New-Zealand-1600x1047.jpg
+    - https://c6.staticflickr.com/1/498/32061897941_167a36b9cf_h.jpg
+thumb: https://c6.staticflickr.com/1/726/32061897581_69e6e6683a_h.jpg
 categories: Resor
 tags: 
 ---
