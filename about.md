@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Om oss
+permalink: /om/
 ---
 
 Travelogue is a minimal, single-column Jekyll theme that provides an immersive read experience for your readers.
