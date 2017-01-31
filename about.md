@@ -4,15 +4,8 @@ title: Om oss
 permalink: /om/
 ---
 
-Travelogue is a minimal, single-column Jekyll theme that provides an immersive read experience for your readers.
+Vi är en familj som tagit ledigt i drygt två månader för att åka jorden runt.
 
-![Post](https://dl.dropboxusercontent.com/u/18322837/GitHub/Travelogue/Post.png)
+![Post](https://c1.staticflickr.com/1/265/31792531314_1d3f106016_c.jpg)
 
-## Getting Started
-The theme provides a complete Jekyll setup. Download it and start the Jekyll server.
-
-    git clone https://github.com/SalGnt/Travelogue.git
-    cd Travelogue
-    jekyll serve
-
-Visit the [Jekyll website](http://jekyllrb.com/) for more information.
+Rutten blev till slut: Köpenhamn - Singapore - Auckland // Quenstown - Cooköarna - Los Angeles - Köpenhamn.
